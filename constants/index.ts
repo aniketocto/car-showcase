@@ -64,7 +64,7 @@ export const fuels = [
   },
   {
     title: "Gas",
-    value: "Gas",
+    value: "CNG",
   },
   {
     title: "Electricity",
