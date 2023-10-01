@@ -9,7 +9,7 @@ export default async function Home({ searchParams }) {
     year: searchParams.year || 2023,
     fuel: searchParams.fuel || "",
     model: searchParams.model || "",
-    limit: searchParams.limit || 10,
+    limit: searchParams.limit || 12,
   });
 
   const isDataEmpty = !Array.isArray(allCars) || allCars.length < 1 || !allCars;
